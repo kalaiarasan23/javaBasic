@@ -28,6 +28,8 @@ void buy(int val)
 
 static void offer(int amt)
 {
-    System.out.println("10% offer "+(amt-(amt/10)));
+    System.out.println("The orginal price is     "+ amt);
+    System.out.println("Due to summer offer, we give 10% offer for our product");
+    System.out.println("now the price is     "+(amt-(amt/10)));
 }
 }
